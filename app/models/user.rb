@@ -1,4 +1,8 @@
 class User < ApplicationRecord
+<<<<<<< HEAD
+=======
+  has_many :tasks
+>>>>>>> 083d350... B8 仕様書通りのレイアウト＆機能を追加する 完全に完成！！
   attr_accessor :remember_token
   before_save { self.email = email.downcase }
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i

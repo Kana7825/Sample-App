@@ -2,6 +2,9 @@
 @import "bootstrap";
 
 /* 共通 */
+#top-main {
+  background-color: #fff;
+}
 
 body {
   padding-top: 60px;
@@ -17,6 +20,9 @@ textarea {
 
 .center {
   text-align: center;
+}
+
+#top-main-title {
   font-style: italic;
 }
 
@@ -64,6 +70,15 @@ p {
 
 #dropdown-title:hover {
   color: #d3d3d3;
+}
+
+.dropdown-header {
+  background-color: #ffe4e1;
+  font-weight: bold;
+}
+
+.navbar-nav > .dropdown.open > a.dropdown-toggle {
+  background-color: #ffb6c1;
 }
 
 #logo {
