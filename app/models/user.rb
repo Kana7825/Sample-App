@@ -1,8 +1,12 @@
 class User < ApplicationRecord
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   has_many :tasks
 >>>>>>> 083d350... B8 仕様書通りのレイアウト＆機能を追加する 完全に完成！！
+=======
+  has_many :tasks
+>>>>>>> 7a88b9a... C3 タスクの新規作成ページを作り、機能を実装する こちらが完全に完成したもの
   attr_accessor :remember_token
   before_save { self.email = email.downcase }
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
